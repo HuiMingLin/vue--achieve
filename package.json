@@ -1,0 +1,31 @@
+{
+  "name": "vue-achieve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config --watch",
+    "dev": "browser-sync start --server --files 'dist/bundle.js, '**/*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuiMingLin/vue-achieve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuiMingLin/vue-achieve/issues"
+  },
+  "homepage": "https://github.com/HuiMingLin/vue-achieve#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "browser-sync": "^2.24.4",
+    "rollup": "^0.59.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
