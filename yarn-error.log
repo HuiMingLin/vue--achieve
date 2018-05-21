@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add eslint eslint-config-standard
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\admin\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python36-32\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\atom\bin;C:\Users\admin\AppData\Roaming\npm;D:\Microsoft VS Code\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Yarn\bin;C:\Users\admin\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\admin\Desktop\vue-achieve\node_modules\babel-generator\node_modules\jsesc'
+
+npm manifest: 
+  {
+    "name": "vue-achieve",
+    "version": "1.0.0",
+    "description": "",
+    "main": "rollup.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "rollup --config --watch",
+      "dev": "browser-sync start --server --files 'dist/bundle.js, '**/*.html'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HuiMingLin/vue-achieve.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/HuiMingLin/vue-achieve/issues"
+    },
+    "homepage": "https://github.com/HuiMingLin/vue-achieve#readme",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-plugin-external-helpers": "^6.22.0",
+      "babel-preset-latest": "^6.24.1",
+      "browser-sync": "^2.24.4",
+      "rollup": "^0.59.1",
+      "rollup-plugin-babel": "^3.0.4",
+      "rollup-plugin-json": "^3.0.0",
+      "rollup-plugin-node-resolve": "^3.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
